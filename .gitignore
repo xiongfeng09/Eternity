@@ -1,0 +1,16 @@
+.DS_Store
+
+/.project
+/.classpath
+/.settings
+/.scala_dependencies
+/.cache
+
+/target/
+
+/shared/
+
+/project/project/
+
+/project/target/
+/bin
