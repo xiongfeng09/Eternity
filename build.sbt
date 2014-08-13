@@ -20,6 +20,7 @@ libraryDependencies ++= {
   val liftVersion = "2.6-M4"
   Seq(
     "net.liftweb"       %% "lift-webkit"        % liftVersion        % "compile",
+    "net.liftweb"       % "lift-mongodb-record_2.11" % liftVersion,
     "net.liftmodules"   %% "lift-jquery-module_2.6" % "2.8",
     "org.eclipse.jetty" % "jetty-webapp"        % "8.1.7.v20120910"  % "container,test",
     "org.eclipse.jetty" % "jetty-plus"          % "8.1.7.v20120910"  % "container,test", // For Jetty Config
