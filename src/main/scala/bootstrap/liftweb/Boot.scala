@@ -53,6 +53,5 @@ class Boot {
     LiftRules.jsArtifacts = JQueryArtifacts
     JQueryModule.InitParam.JQuery=JQueryModule.JQuery191
     JQueryModule.init()
-
   }
 }

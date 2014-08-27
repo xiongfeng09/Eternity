@@ -11,6 +11,12 @@
 /shared/
 
 /project/project/
+/src/test/scala
 
 /project/target/
 /bin
+
+
+/.idea
+.history
+*.iml
