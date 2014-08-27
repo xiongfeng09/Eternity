@@ -21,7 +21,6 @@ class Clock extends CometActor {
     case Tick => {
       partialUpdate {
         reRender(false)
-        SetHtml("time", Text(now.toString))
       }
       // schedule an update in 10 seconds
       Schedule.schedule(this, Tick, 1000L) 
