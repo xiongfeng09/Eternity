@@ -1,7 +1,7 @@
 package code
 
 import net.liftweb.util.Props
-import net.liftweb.mongodb.MongoIdentifier
+import net.liftweb.util.ConnectionIdentifier
 
 object Config {
   object Mongo {
@@ -17,8 +17,8 @@ object Config {
     val connectionsPerHost = Props.getInt("mongo_connectionsPerHost").openOr(10)
     val threadsAllowedToBlockForConnectionMultiplier =
     Props.getInt("mongo_threadsAllowedToBlockForConnectionMultiplier").openOr(5)
-        
-    object DefaultMongoIdentifier extends MongoIdentifier {
+    
+    object DefaultMongoIdentifier extends ConnectionIdentifier {
       val jndiName = "default"
      }
   }
